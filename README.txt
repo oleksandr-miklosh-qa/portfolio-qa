@@ -1,1 +1,0 @@
-This repository was created for the potential employers to show my examples of checklists, test cases, bug reports, SQL queries, Postman collections and test plans.
