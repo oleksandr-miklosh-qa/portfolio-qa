@@ -4,11 +4,11 @@
             "id": "1",
             "module_name": "Registration page",
             "summary": "Verify that the all fields are blank when a user opens the registration form",
-            "str": {
+            "steps": {
                 "1": "Open a browser",
-                "2": "Open https://accounts.google.com/signup page",
+                "2": "Open https://accounts.google.com/signup",
                 "3": "Skip all mandatory fields",
-                "4": "Click on the 'Further' button"
+                "4": "Click on the \"Further\" button"
             },
             "expected_result": "The all fields are blank",
             "status": "Not run"
@@ -17,11 +17,11 @@
             "id": "2",
             "module_name": "Registration page",
             "summary": "Verify that user cannot proceed the registration process without filling any fields",
-            "str": {
+            "steps": {
                 "1": "Open a browser",
-                "2": "Open https://accounts.google.com/signup page",
+                "2": "Open https://accounts.google.com/signup",
                 "3": "Skip all mandatory fields",
-                "4": "Click on the 'Further' button"
+                "4": "Click on the \"Further\" button"
             },
             "expected_result": "The red messages is shown that indicates about neccessity to fill mandatory field",
             "status": "Not run"
@@ -29,11 +29,11 @@
         {
             "id": "3",
             "module_name": "Registration page",
-            "summary": "Verify that the user is able to go to the login page by clicking on the 'Enter into account' button",
-            "str": {
+            "summary": "Verify that the user is able to go to the login page by clicking on the \"Enter into account\" button",
+            "steps": {
                 "1": "Open a browser",
-                "2": "Open https://accounts.google.com/signup page",
-                "3": "Click on 'Enter into account' button"
+                "2": "Open https://accounts.google.com/signup",
+                "3": "Click on the \"Enter into account\" button"
             },
             "expected_result": "The page with the login functionality is opened",
             "status": "Not run"
@@ -42,26 +42,27 @@
             "id": "4",
             "module_name": "Registration page",
             "summary": "Verify that the user is able to register by entering the valid data in the all fields",
-            "str": {
+            "steps": {
                 "1": "Open a browser",
-                "2": "Open https://accounts.google.com/signup page",
+                "2": "Open https://accounts.google.com/signup",
                 "3": "Enter a valid name and last name",
-                "4": "Enter a valid email name",
-                "5": "Enter a valid password and click 'Further' button"
+                "4": "Enter a valid email",
+                "5": "Enter a valid password and click the \"Further\" button"
             },
-            "expected_result": "The user proceeds to the mobile number page",
+            "expected_result": "The user proceeds to the \"Mobile number\" page",
             "status": "Not run"
         },
         {
             "id": "5",
             "module_name": "Registration page",
             "summary": "Verify that system cannot accept numbers in the Name field",
-            "str": {
+            "steps": {
                 "1": "Open a browser",
-                "2": "Enter numbers in the first name field",
-                "3": "Enter a valid last name",
-                "4": "Enter a valid Enter email name",
-                "5": "Enter a valid password and click 'Further' button"
+                "2": "Open https://accounts.google.com/signup",
+                "3": "Enter numbers in the \"First name\" field",
+                "4": "Enter a valid last name",
+                "5": "Enter a valid Enter email name",
+                "6": "Enter a valid password and click the \"Further\" button"
             },
             "expected_result": "The system shows the message about name correctness",
             "status": "Not run"

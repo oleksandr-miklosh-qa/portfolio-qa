@@ -1,0 +1,40 @@
+{
+    "bug_reports": [
+        {
+            "id": "1",
+            "module_name": "Registration page",
+            "summary": "The system accepts both cyrilic and latin letters in the \"First Name\" field",
+            "priority": "Medium",
+            "severity": "Moderate",
+            "str": {
+                "1": "Open a browser",
+                "2": "Open https://accounts.google.com/signup",
+                "3": "Enter cyrilic and latin symbols in the \"First Name\" field",
+                "4": "Enter password",
+                "5": "Click \"First Name\" button",
+                "6": "Check the absence of the error message"
+            },
+            "actual_result": "The system accepts both cyrilic and latin letters in the \"First Name\" field",
+            "expected_result": "The error message is shown after the system accepts both cyrilic and latin letters in the \"First Name\" field",
+            "attachments": ["image.png", "video.mp4"]
+        },
+        {
+            "id": "2",
+            "module_name": "Registration page",
+            "summary": "The \"First name\" field is not mandatory on the registration page",
+            "priority": "High",
+            "severity": "Major",
+            "str": {
+                "1": "Open a browser",
+                "2": "Open https://accounts.google.com/signup",
+                "3": "Fulfill each mandatory field besides The \"First name\" field",
+                "4": "Enter a valid password",
+                "5": "Click the \"First Name\" button",
+                "6": "Check the absence of the error message"
+            },
+            "actual_result": "The \"First name\" field is not mandatory on the registration page",
+            "expected_result": "The error message is shown after the system accepts the The \"First name\" field as non-mandatory",
+            "attachments": ["image.png", "video.mp4"]
+        }
+    ]
+}
