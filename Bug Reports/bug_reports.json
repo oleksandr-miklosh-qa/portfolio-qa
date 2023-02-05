@@ -11,7 +11,7 @@
                 "2": "Open https://accounts.google.com/signup",
                 "3": "Enter cyrilic and latin symbols in the \"First Name\" field",
                 "4": "Enter password",
-                "5": "Click \"First Name\" button",
+                "5": "Click \"Further\" button",
                 "6": "Check the absence of the error message"
             },
             "actual_result": "The system accepts both cyrilic and latin letters in the \"First Name\" field",
@@ -29,7 +29,7 @@
                 "2": "Open https://accounts.google.com/signup",
                 "3": "Fulfill each mandatory field besides The \"First name\" field",
                 "4": "Enter a valid password",
-                "5": "Click the \"First Name\" button",
+                "5": "Click the \"Further\" button",
                 "6": "Check the absence of the error message"
             },
             "actual_result": "The \"First name\" field is not mandatory on the registration page",
