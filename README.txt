@@ -1,1 +1,1 @@
-This repository was created for the potential employers to show my examples of checklists, test cases, bug reports, SQL queries, Postman collections and test plans.
+The test plan which is inside this folder was made under the QA course by QATESTLab as the training course. It a .doc file. The test plan is indeed a needed artifact, but it should be updated from time to time.
